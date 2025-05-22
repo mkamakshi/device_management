@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d1abbd63836122104eca5fd6feaad31c" extends="task" label="Device Request" max_length="40" name="x_1565242_device_m_device_request" type="collection"/>
+</database>
