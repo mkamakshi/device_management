@@ -5,7 +5,7 @@
         <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
         <column_label>Quantity</column_label>
@@ -27,7 +27,7 @@
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Integer">integer</internal_type>
         <mandatory>true</mandatory>
         <max_length>40</max_length>
         <name>x_1565242_device_m_device_request</name>
@@ -53,7 +53,7 @@
         <sys_scope display_value="Device Management">a8ea35ab832122104eca5fd6feaad34c</sys_scope>
         <sys_update_name>sys_dictionary_x_1565242_device_m_device_request_u_qty</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-29 16:41:27</sys_updated_on>
+        <sys_updated_on>2025-05-30 15:49:14</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
