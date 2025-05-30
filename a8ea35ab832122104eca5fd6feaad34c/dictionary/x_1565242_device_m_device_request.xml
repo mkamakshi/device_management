@@ -3,7 +3,7 @@
         <element attributes="edge_encryption_enabled=true" label="Model" max_length="40" name="u_model" read_only="true" type="string"/>
         <element attributes="encode_utf8=false" label="Device Name" mandatory="true" max_length="32" name="u_device_name_1" reference="x_1565242_device_m_ai_devices" type="reference"/>
         <element attributes="encode_utf8=false" label="Requestor Name" mandatory="true" max_length="32" name="u_requestor_name_1" reference="sys_user" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" label="Quantity" mandatory="true" max_length="40" name="u_qty" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Quantity" mandatory="true" max_length="40" name="u_qty" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Device Description" max_length="40" name="u_device_desc" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Delivery Date" max_length="40" name="u_delivery_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Device Name" max_length="40" name="u_device_name" reference="x_1565242_device_m_ai_devices" type="string"/>
