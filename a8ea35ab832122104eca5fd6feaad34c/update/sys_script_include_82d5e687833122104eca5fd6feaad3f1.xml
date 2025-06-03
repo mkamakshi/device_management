@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1565242_device_m.AIDeviceDetails</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>AIDeviceDetails</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var AIDeviceDetails = Class.create();
+AIDeviceDetails.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    getDeviceDetails: function(){
+      var deviceName = this.getParameter('sysparm_devicename');
+      var deviceRec = new GlideRecord('x_1565242_device_m_ai_devices');
+      deviceRec.addQuery('sys_id', deviceName);
+      deviceRec.query();
+      if (deviceRec.next()){
+        var deviceObj = {};
+		deviceObj.model = ''+ deviceRec.model_number;
+		deviceObj.deviceDesc = ''+ deviceRec.short_description;
+		deviceObj.price = ''+deviceRec.u_price_2;
+        deviceObj.warrantyExp = ''+ deviceRec.warranty_expiration;
+
+		return JSON.stringify(deviceObj);
+
+    }
+
+	},
+
+	type: 'AIDeviceDetails'
+
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-02 16:29:43</sys_created_on>
+        <sys_id>82d5e687833122104eca5fd6feaad3f1</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>AIDeviceDetails</sys_name>
+        <sys_package display_value="Device Management" source="x_1565242_device_m">a8ea35ab832122104eca5fd6feaad34c</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Device Management">a8ea35ab832122104eca5fd6feaad34c</sys_scope>
+        <sys_update_name>sys_script_include_82d5e687833122104eca5fd6feaad3f1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-03 15:53:45</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>82d5e687833122104eca5fd6feaad3f1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-02 16:29:43</sys_created_on>
+        <sys_id>99a66e07833122104eca5fd6feaad35e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-02 16:29:43</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
