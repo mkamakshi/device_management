@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-29 15:46:50</sys_created_on>
+        <sys_id>8a7671f5833122104eca5fd6feaad372</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1565242_device_m_ai_devices.x_1565242_device_m.ai_devices_user</sys_name>
+        <sys_package display_value="Device Management" source="x_1565242_device_m">a8ea35ab832122104eca5fd6feaad34c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Device Management">a8ea35ab832122104eca5fd6feaad34c</sys_scope>
+        <sys_security_acl display_value="x_1565242_device_m_ai_devices">ca7671f5833122104eca5fd6feaad362</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_8a7671f5833122104eca5fd6feaad372</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-29 15:46:50</sys_updated_on>
+        <sys_user_role display_value="x_1565242_device_m.ai_devices_user" name="x_1565242_device_m.ai_devices_user">7d7671f5833122104eca5fd6feaad333</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Device Management">a8ea35ab832122104eca5fd6feaad34c</application>
+        <file_path/>
+        <instance_id>2152c9e8ff48d29cc80bf8e4fc4fd9f9</instance_id>
+        <instance_name>dev287296</instance_name>
+        <name>sys_security_acl_role_8a7671f5833122104eca5fd6feaad372</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-29 15:46:50</sys_created_on><sys_id>8a7671f5833122104eca5fd6feaad372</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1565242_device_m_ai_devices.x_1565242_device_m.ai_devices_user</sys_name><sys_package display_value="Device Management" source="x_1565242_device_m">a8ea35ab832122104eca5fd6feaad34c</sys_package><sys_policy/><sys_scope display_value="Device Management">a8ea35ab832122104eca5fd6feaad34c</sys_scope><sys_security_acl display_value="x_1565242_device_m_ai_devices">ca7671f5833122104eca5fd6feaad362</sys_security_acl><sys_update_name>sys_security_acl_role_8a7671f5833122104eca5fd6feaad372</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-29 15:46:50</sys_updated_on><sys_user_role display_value="x_1565242_device_m.ai_devices_user" name="x_1565242_device_m.ai_devices_user">7d7671f5833122104eca5fd6feaad333</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>86787504</payload_hash>
+        <record_name>x_1565242_device_m_ai_devices.x_1565242_device_m.ai_devices_user</record_name>
+        <reverted_from/>
+        <source>746cb1a3836122104eca5fd6feaad3bd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-29 15:46:50</sys_created_on>
+        <sys_id>ca7671f5833122104eca5fd6feaad375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1971cb989160000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-29 15:46:50</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>ce7671f5373122106296a1f51faab474</update_guid>
+        <update_guid_history>ce7671f5373122106296a1f51faab474:86787504</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1565242_device_m_ai_devices.x_1565242_device_m.ai_devices_user">6f1774bf833962104eca5fd6feaad300</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-04 16:17:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>3e71392b3e8f44fe8ab5af1e15c35849</sys_id>
+        <sys_metadata>8a7671f5833122104eca5fd6feaad372</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1565242_device_m_ai_devices.x_1565242_device_m.ai_devices_user</sys_name>
+        <sys_package display_value="Device Management" source="x_1565242_device_m">a8ea35ab832122104eca5fd6feaad34c</sys_package>
+        <sys_parent display_value="x_1565242_device_m_ai_devices">ca7671f5833122104eca5fd6feaad362</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Device Management">a8ea35ab832122104eca5fd6feaad34c</sys_scope>
+        <sys_scope_delete display_value="">0e7a52061c6d415aac772ba5fe8eec04</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_8a7671f5833122104eca5fd6feaad372</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_8a7671f5833122104eca5fd6feaad372">ca7671f5833122104eca5fd6feaad375</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-04 16:17:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
