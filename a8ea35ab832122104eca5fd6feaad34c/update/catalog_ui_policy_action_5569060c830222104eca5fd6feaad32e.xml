@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Order AI Devices">d9a40244830222104eca5fd6feaad349</catalog_item>
+        <catalog_variable>IO:7e660208830222104eca5fd6feaad362</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-05 16:56:04</sys_created_on>
+        <sys_id>5569060c830222104eca5fd6feaad32e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>business_justification</sys_name>
+        <sys_package display_value="Device Management" source="x_1565242_device_m">a8ea35ab832122104eca5fd6feaad34c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Device Management">a8ea35ab832122104eca5fd6feaad34c</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_5569060c830222104eca5fd6feaad32e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-05 16:56:04</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make business justification mandatory when quantity is greater than 3">e6f8cac8830222104eca5fd6feaad3e5</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>business_justification</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=5569060c830222104eca5fd6feaad32e"/>
+</record_update>
