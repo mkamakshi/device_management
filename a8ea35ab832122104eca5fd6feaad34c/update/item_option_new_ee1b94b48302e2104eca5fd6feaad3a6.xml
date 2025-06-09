@@ -38,19 +38,19 @@
         <lookup_value/>
         <macro/>
         <macroponent/>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>delivery_address</name>
+        <name>total_amount</name>
         <not_available_conversation>false</not_available_conversation>
-        <order>700</order>
+        <order>500</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Delivery Address</question_text>
-        <read_only>false</read_only>
+        <question_text>Total Amount</question_text>
+        <read_only>true</read_only>
         <read_roles/>
         <read_script/>
         <rec_lookup_price/>
@@ -58,8 +58,8 @@
         <record/>
         <record_producer_table/>
         <reference/>
-        <reference_qual>undefined</reference_qual>
-        <reference_qual_condition>undefined</reference_qual_condition>
+        <reference_qual/>
+        <reference_qual_condition/>
         <rich_text/>
         <roles_to_use_also_request_for/>
         <save_script><![CDATA[/** This script is executed before the Record is generated
@@ -77,20 +77,20 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-06-05 16:44:26</sys_created_on>
-        <sys_id>79960608830222104eca5fd6feaad33d</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Delivery Address</sys_name>
-        <sys_package/>
+        <sys_created_on>2025-06-07 16:49:53</sys_created_on>
+        <sys_id>ee1b94b48302e2104eca5fd6feaad3a6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Total Amount</sys_name>
+        <sys_package display_value="Device Management" source="x_1565242_device_m">a8ea35ab832122104eca5fd6feaad34c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Device Management">a8ea35ab832122104eca5fd6feaad34c</sys_scope>
-        <sys_update_name>item_option_new_79960608830222104eca5fd6feaad33d</sys_update_name>
+        <sys_update_name>item_option_new_ee1b94b48302e2104eca5fd6feaad3a6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-09 15:49:50</sys_updated_on>
+        <sys_updated_on>2025-06-09 15:49:49</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
-        <type>2</type>
+        <type>6</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -106,22 +106,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=79960608830222104eca5fd6feaad33d"/>
-    <fx_price action="delete_multiple" query="id=79960608830222104eca5fd6feaad33d"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=ee1b94b48302e2104eca5fd6feaad3a6"/>
+    <fx_price action="delete_multiple" query="id=ee1b94b48302e2104eca5fd6feaad3a6"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>79960608830222104eca5fd6feaad33d</id>
+        <id>ee1b94b48302e2104eca5fd6feaad3a6</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-06-05 16:44:26</sys_created_on>
-        <sys_id>0ac60a08830222104eca5fd6feaad358</sys_id>
+        <sys_created_on>2025-06-07 16:49:53</sys_created_on>
+        <sys_id>913b18b48302e2104eca5fd6feaad3ef</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-05 16:44:26</sys_updated_on>
+        <sys_updated_on>2025-06-07 16:49:53</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -129,16 +129,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>79960608830222104eca5fd6feaad33d</id>
+        <id>ee1b94b48302e2104eca5fd6feaad3a6</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-06-05 16:44:26</sys_created_on>
-        <sys_id>cac60a08830222104eca5fd6feaad357</sys_id>
+        <sys_created_on>2025-06-07 16:49:53</sys_created_on>
+        <sys_id>913b18b48302e2104eca5fd6feaad3ee</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-05 16:44:26</sys_updated_on>
+        <sys_updated_on>2025-06-07 16:49:53</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

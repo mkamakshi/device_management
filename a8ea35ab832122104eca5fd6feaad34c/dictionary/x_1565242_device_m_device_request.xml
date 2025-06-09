@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="d1abbd63836122104eca5fd6feaad31c" extends="task" label="Device Request" max_length="40" name="x_1565242_device_m_device_request" type="collection">
+        <element attributes="omit_sys_original=true" label="Total Cost" max_length="20" name="total_cost" read_only="true" type="currency"/>
         <element attributes="edge_encryption_enabled=true" label="Model" max_length="40" name="u_model" read_only="true" type="string"/>
         <element attributes="encode_utf8=false" label="Device Name" mandatory="true" max_length="32" name="u_device_name_1" reference="x_1565242_device_m_ai_devices" type="reference"/>
         <element attributes="encode_utf8=false" label="Requestor Name" mandatory="true" max_length="32" name="u_requestor_name_1" reference="sys_user" type="reference"/>
